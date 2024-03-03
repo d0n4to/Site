@@ -23,18 +23,12 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 
-
-
     <!-- Stili personalizzati per questo template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
     <!-- Stili personalizzati per questo template -->
-    <style>
-
-    </style>
 </head>
 
 <body>
-
     <div class="container">
         <header class="blog-header py-3">
             <div class="row flex-nowrap justify-content-between align-items-center">
@@ -54,13 +48,13 @@
 
         <div class="p-4 p-md-5 mb-4 text-white rounded bg">
             <div class="col-md-6 px-0">
-                <h1 class="display-4 font-italic">Titolo dell'Ultimo post pubbllicato: data (es.03 Mar)</h1>
+                <h1 class="display-4 font-italic">Titolo dell'Ultimo post pubblicato: data (es.03 Mar)</h1>
                 <p class="lead my-3">Descrizione del post</p>
                 <p class="lead">
                     <a href="#" class="text-white font-weight-bold">Continua a leggere...</a>
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=URL_DEL_TUO_ARTICOLO" target="_blank">
-                        <img src="Img/Share.png" alt="condividi" width="30" height="30" />
-                    </a>
+                    <button id="share-btn" class="bottone">
+                        <img src="/Img/Share.png" alt="Condividi" width="30" height="30"/>
+                    </button>
                 </p>
             </div>
         </div>
@@ -75,7 +69,12 @@
                         <h3 class="mb-0">Titolo del post</h3>
                         <div class="mb-1 text-muted">01 Mar</div>
                         <p class="card-text mb-auto">breve descrizione</p>
-                        <a href="#" class="stretched-link Anim">Continua a leggere...(link alla pagina del post)</a>
+                        <p>
+                            <a href="#" style="color: black;">Continua a leggere...</a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=URL_DEL_TUO_ARTICOLO" target="_blank">
+                                <img src="Img/ShareBlack.png" alt="condividi" width="25" height="25" />
+                            </a>
+                        </p>
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +96,12 @@
                         <h3 class="mb-0">Titolo del post</h3>
                         <div class="mb-1 text-muted">29 Feb</div>
                         <p class="mb-auto">Titolo del Post</p>
-                        <a href="#" class="stretched-link">Continua a leggere...(link alla pagina del post)</a>
+                        <p>
+                            <a href="#" style="color: black;">Continua a leggere...</a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=URL_DEL_TUO_ARTICOLO" target="_blank">
+                                <img src="Img/ShareBlack.png" alt="condividi" width="25" height="25" />
+                            </a>
+                        </p>
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg"
