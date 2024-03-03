@@ -21,8 +21,10 @@ a {
 
 a:hover {
     transform: translateY(-2px);
-    color: #0056b3; /* Blu più scuro al passaggio del mouse */
+    color: #1b344e; /* Blu più scuro al passaggio del mouse */
 }
+
+
 
 .blog-header {
     line-height: 1;
@@ -141,4 +143,36 @@ h6 {
 
 .blog-footer p:last-child {
     margin-bottom: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.descrizione {
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: calc(100% + 10px);
+    top: 0;
+    width: 200px;
+    margin-left: 85%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.descrizione a{
+    text-decoration: none;
+    color: black;
+}
+.descrizione a:hover{
+    text-decoration: none;
+    color: #0056b3;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.Noi:hover + .descrizione,.descrizione:hover {
+    display: block;
 }
